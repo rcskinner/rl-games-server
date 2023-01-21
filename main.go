@@ -2,9 +2,13 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/rcskinner/rl-games-server/games"
+	"github.com/rcskinner/rl-games-server/games/connect4"
 )
 
 func main() {
 	fmt.Println("Called from main")
-	connect4.hi_from_con4()
+	games.SayHi()
+	connect4.Hi()
 }
