@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rl-games-server"
+version = "0.1.0"
+description = "Python definitions for the rl-games-server project"
+authors = ["rcskinner"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.1.2"
+
+
+[tool.poetry.group.test.dependencies]xz
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
